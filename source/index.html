@@ -2,8 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icon/icon.svg" type="image/svg+xml">
   </head>
@@ -41,6 +43,7 @@
             питание для котов
           </h1>
           <p class="promo__subtitle">Занялся собой? Займись котом!</p>
+          <img src="img/index-can-mobile.png" width="280" height="270" alt="Cat «Cat-Energy» со вкусом курицы">
           <a href="form.html" class="promo__button button">Подобрать программу</a>
         </div>
       </div>
@@ -102,7 +105,7 @@
         <div class="container">
           <div class="example-wrapper">
             <h2 class="example__title modal-header">Живой пример</h2>
-            <p class="exemple__description">
+            <p class="example__description">
               Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
             </p>
             <dl class="example-stats">
@@ -119,40 +122,40 @@
           </div>
           <div class="example__image-wrapper">
             <div class="example__image-list">
-              <div class="example__image__item example__image-item--current">
+              <div class="example__image-item example__image-item--current">
                 <img src="img/cat-fat.png" alt="Толстый кот">
               </div>
               <div class="example__image-item">
                 <img src="img/cat-skinny.png" alt="Худой кот">
               </div>
             </div>
-            <div class="exemple__buttons">
-              <button type="button">Было</button>
-              <div class="exemple__butons-scale">
-                <span class="exemple__butons-bar"></span>
+            <div class="example__buttons">
+              <button class="example__button" type="button">Было</button>
+              <div class="example__button-scale">
+                <span class="example__button-bar"></span>
               </div>
-              <button type="button">Стало</button>
+              <button class="example__button" type="button">Стало</button>
             </div>
           </div>
         </div>
       </section>
       <article class="contacts">
         <div class="container">
-          <p class="contacts__slogan">
-            приглашаем<br>
-            к сотрудничеству<br>
-            дилеров!
-          </p>
-          <p class="contacts__adress">
-            ул. Большая<br>
-            Конюшенная, д. 19/8<br>
-            <span>Санкт-Петербург</span>
-          </p>
+          <div class="contacts__wrapper">
+            <p class="contacts__slogan">
+              приглашаем<br>
+              к сотрудничеству<br>
+              дилеров!
+            </p>
+            <p class="contacts__adress">
+              ул. Большая<br>
+              Конюшенная, д. 19/8<br>
+              <span>Санкт-Петербург</span>
+            </p>
+          </div>
         </div>
+        <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </article>
-      <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
     </main>
     <footer class="page-footer">
       <div class="container">
