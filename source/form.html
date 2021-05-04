@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icon/icon.svg" type="image/svg+xml">
   </head>
@@ -39,7 +40,7 @@
     <main class="page-form">
       <section class="program">
         <div class="container">
-          <h1 class="program__title modal header">Подбор программы</h1>
+          <h1 class="program__title modal-header">Подбор программы</h1>
           <p class="program__text">
             Заполните анкету, и мы подберем<br>
             программу питания для вашего кота
@@ -98,8 +99,8 @@
               </div>
             </fieldset>
             <fieldset class="program-form__group">
-              <legend class="program-form__legnd">Комментарий</legend>
-              <textarea class="program-form_text" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
+              <legend class="program-form__legend">Комментарий</legend>
+              <textarea class="program-form_textarea" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
             </fieldset>
             <fieldset class="program-form__group">
               <legend class="program-form__legend program-form__legend--extra">Дополнительно</legend>
@@ -123,7 +124,7 @@
               </ul>
             </fieldset>
             <div class="program-form__button-wrapper">
-              <button program-form__button button type="submit">Отправить заявку</button>
+              <button class="program-form__button button" type="submit">Отправить заявку</button>
               <p class="program-form__small-legend">
                 <small>* — Обязательные поля</small>
               </p>
@@ -133,21 +134,21 @@
       </section>
       <article class="contacts">
         <div class="container">
-          <p class="contacts__slogan">
-            приглашаем<br>
-            к сотрудничеству<br>
-            дилеров!
-          </p>
-          <p class="contacts__adress">
-            ул. Большая<br>
-            Конюшенная, д. 19/8<br>
-            <span>Санкт-Петербург</span>
-          </p>
+          <div class="contacts__wrapper">
+            <p class="contacts__slogan">
+              приглашаем<br>
+              к сотрудничеству<br>
+              дилеров!
+            </p>
+            <p class="contacts__adress">
+              ул. Большая<br>
+              Конюшенная, д. 19/8<br>
+              <span>Санкт-Петербург</span>
+            </p>
+          </div>
         </div>
+        <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </article>
-      <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
     </main>
     <footer class="page-footer">
       <div class="container">
