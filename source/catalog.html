@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/icon/icon.svg" type="image/svg+xml">
   </head>
@@ -239,65 +240,68 @@
           </ul>
         </section>
         <section class="additional">
-          <ul class="additional__list">
-            <li class="additional__item">
-              <h3 class="additional__title">Сахарозаменитель</h3>
-              <dl class="additional__description">
-                <dt class="additional_description-weight">1 упаковка (100 г)</dt>
-                <dd class="additional_description-price">200 р.</dd>
-              </dl>
-              <a href="#" class="additional_button button">Заказать</a>
-            </li>
-            <li class="additional__item">
-              <h3 class="additional__title">Питьевая вода</h3>
-              <dl class="additional__description">
-                <dt class="additional_description-weight">5 литров</dt>
-                <dd class="additional_description-price">50 р.</dd>
-              </dl>
-              <a href="#" class="additional_button button">Заказать</a>
-            </li>
-            <li class="additional__item">
-              <h3 class="additional__title">Молоко</h3>
-              <dl class="additional__description">
-                <dt class="additional_description-weight">1 литр</dt>
-                <dd class="additional_description-price">100 р.</dd>
-              </dl>
-              <a href="#" class="additional_button button">Заказать</a>
-            </li>
-            <li class="additional__item">
-              <h3 class="additional__title">Витамины</h3>
-              <dl class="additional__description">
-                <dt class="additional_description-weight">1 упаковка (30 г)</dt>
-                <dd class="additional_description-price">300 р.</dd>
-              </dl>
-              <a href="#" class="additional_button button">Заказать</a>
-            </li>
-          </ul>
-          <div class="additional__bonus">
-            <p class="additional__bonus-text">Закажите все
-              и получите чехол для
-              кота в подарок!
-            </p>
+          <div class="container">
+            <h2 class="additional__heading modal-catalog">Дополнительные товары</h2>
+            <ul class="additional__list">
+              <li class="additional__item">
+                <h3 class="additional__title">Сахарозаменитель</h3>
+                <dl class="additional__description">
+                  <dt class="additional_description-weight">1 упаковка (100 г)</dt>
+                  <dd class="additional_description-price">200 р.</dd>
+                </dl>
+                <a href="#" class="catalog__button button">Заказать</a>
+              </li>
+              <li class="additional__item">
+                <h3 class="additional__title">Питьевая вода</h3>
+                <dl class="additional__description">
+                  <dt class="additional_description-weight">5 литров</dt>
+                  <dd class="additional_description-price">50 р.</dd>
+                </dl>
+                <a href="#" class="catalog__button button">Заказать</a>
+              </li>
+              <li class="additional__item">
+                <h3 class="additional__title">Молоко</h3>
+                <dl class="additional__description">
+                  <dt class="additional_description-weight">1 литр</dt>
+                  <dd class="additional_description-price">100 р.</dd>
+                </dl>
+                <a href="#" class="catalog__button button">Заказать</a>
+              </li>
+              <li class="additional__item">
+                <h3 class="additional__title">Витамины</h3>
+                <dl class="additional__description">
+                  <dt class="additional_description-weight">1 упаковка (30 г)</dt>
+                  <dd class="additional_description-price">300 р.</dd>
+                </dl>
+                <a href="#" class="catalog__button button">Заказать</a>
+              </li>
+            </ul>
+            <div class="additional__bonus">
+              <p class="additional__bonus-text">Закажите все
+                и получите чехол для
+                кота в подарок!
+              </p>
+            </div>
           </div>
         </section>
       </div>
       <article class="contacts">
         <div class="container">
-          <p class="contacts__slogan">
-            приглашаем<br>
-            к сотрудничеству<br>
-            дилеров!
-          </p>
-          <p class="contacts__adress">
-            ул. Большая<br>
-            Конюшенная, д. 19/8<br>
-            <span>Санкт-Петербург</span>
-          </p>
+          <div class="contacts__wrapper">
+            <p class="contacts__slogan">
+              приглашаем<br>
+              к сотрудничеству<br>
+              дилеров!
+            </p>
+            <p class="contacts__adress">
+              ул. Большая<br>
+              Конюшенная, д. 19/8<br>
+              <span>Санкт-Петербург</span>
+            </p>
+          </div>
         </div>
+        <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </article>
-      <section class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.603625300312!2d30.320858716143494!3d59.93871916905415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1619264584793!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
     </main>
     <footer class="page-footer">
       <div class="container">
