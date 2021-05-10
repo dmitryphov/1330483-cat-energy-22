@@ -2,6 +2,24 @@
   margin-top: 27px;
 }
 
+.advantages__list {
+  @media (min-width: @tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: @tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.advantages__item {
+  @media (max-width: @mobile-width) {
+    display: flex;
+  }
+}
+
 .advantages__description {
   .text(14px, 18px);
 }
