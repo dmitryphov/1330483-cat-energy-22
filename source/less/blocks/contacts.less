@@ -1,6 +1,20 @@
+.contacts {
+  position: relative;
+}
+
 .contacts__wrapper {
   padding: 28px 0;
-  background: @basic-grey;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: @desktop) {
+    position: absolute;
+    left: 7.64%;
+    right: 52.78%;
+    top: 23.75%;
+    bottom: 26%;
+    background: @basic-white;
+  }
 }
 
 .contacts__slogan {
