@@ -1,4 +1,21 @@
 //header
+.page-header--background {
+  @media (min-width: @desktop) {
+    position: relative;
+    background: url("../img/index-background-desktop.jpg") no-repeat right center / 50%;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: fade(@basic-green, 85%);
+    }
+  }
+}
+
 .page-header .container {
   @media (min-width: @tablet-width) {
     display: flex;
