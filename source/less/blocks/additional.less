@@ -1,9 +1,28 @@
+.additional .container {
+  @media (min-width: @desktop) {
+    display: grid;
+    grid-template-columns: 1fr 245px;
+    grid-template-rows: min-content auto;
+  }
+}
+
 .additional__heading {
   .title(24px, 24px);
+
+  @media (min-width: @desktop) {
+    grid-column: ~"1 / -1";
+  }
 }
 
 .additional__list {
+  padding: 0;
   list-style: none;
+}
+
+.additional__item {
+  @media (min-width: @desktop) {
+    display: ;
+  }
 }
 
 .additional__title {
@@ -13,13 +32,26 @@
 }
 
 .additional__description {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
   .text(14px, 14px);
 }
 
+.additional_description-price {
+  margin: 0;
+}
+
 .additional__bonus {
+  min-height: 289px;
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  font-weight: 20px;
-  background: @basic-green url("../img/gift-photo-mobile.jpg") no-repeat;
+  line-height: 20px;
+  background: @basic-green url("../img/gift-photo-mobile.jpg") no-repeat center center / cover;
   color: @basic-white;
+
+  @media (min-width: @tablet-width) {
+    min-height: 200px;
+    background: @basic-green url("../img/gift-photo-mobile.jpg") no-repeat center 67% / cover;
+  }
 }
